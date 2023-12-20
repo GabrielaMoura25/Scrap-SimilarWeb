@@ -42,8 +42,8 @@ O Projeto Speedio Web Scraper API é uma API construída em Node.js utilizando o
 
 ### Configuração
 
-1. Certifique-se de ter o Node.js e o npm instalados.
-2. Certifique-se de ter o MongoDB instalado localmente.
+1. Certifique-se de ter o [Node.js](https://nodejs.org/) e o npm instalados.
+2. Certifique-se de ter o [MongoDB](https://www.mongodb.com/) instalado localmente.
 
 ### Execução
 
