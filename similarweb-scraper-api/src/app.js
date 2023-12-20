@@ -1,12 +1,14 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
+const helmet = require('helmet');
 const apiRoutes = require('./routes/apiRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors());
+app.use(helmet());
 app.use(express.json());
 
 mongoose.connect('mongodb://localhost:27017/similarweb', { useNewUrlParser: true, useUnifiedTopology: true });
